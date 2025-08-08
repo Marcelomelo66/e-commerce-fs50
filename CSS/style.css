@@ -1,0 +1,261 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+
+
+/* Reset */
+* {
+    margin: 0%;
+    padding: 0%;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px; /* 1rem*/
+}
+
+/* NavBar */
+nav {
+    background-color: #080808;
+    padding: 1rem 4rem;
+
+    header {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 0.5rem;
+        height: 5rem;
+        width: 115rem;
+        
+       
+    }
+
+
+   
+    ul {
+        display: flex;
+        list-style-type: none;
+        gap: 0.3rem;
+        justify-content: flex-end;
+        margin-top: 4rem;
+    }
+
+    a {
+        text-decoration: none;
+        padding: 0.5rem 0.8rem;
+        color: #f8f8f8;
+        transition: 0.3s;
+        display: inline-block;
+
+        &:hover {
+            color: #ffffff;
+            transform: translateY(-3px);
+        }
+    }
+
+    input {
+        position: relative;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        border-radius: 1rem;
+
+        /* .search-container {
+            position: relative;
+            width: 100%;
+            max-width: 300px;
+        }
+
+        .search-container input {
+            width: 100%;
+            padding: 0.5rem 2.5rem 0.5rem 0.8rem;
+            font-size: 1rem;
+        }
+
+        .search-icon {
+            position: absolute;
+            right: 0.8rem;
+            top: 50%;
+            transform: translateY(-50%);
+            pointer-events: none;
+            font-size: 1rem;
+            color: #888;
+        } */
+    }
+
+    /* border: solid 1px; */
+}
+
+.search-container {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    
+}
+
+.search-container input {
+    width: 100%;
+    padding: 0.5rem 2.5rem 0.5rem 0.8rem; /* espaço à direita para o ícone */
+    /* font-size: 1rem; */
+}
+
+.search-icon {
+    position: absolute;
+    right: 0.8rem;
+    /* top: 50%; */
+    top: 0.4rem;
+    /* transform: translateY(-50%); */
+    /* transform: translateY(-50%); */
+    pointer-events: none; /* deixa o clique passar pelo ícone */
+    font-size: 1.5rem;
+    color: #fa0707;
+}
+
+
+.ph-drone
+{
+font-size: 100px;
+display: flex;
+justify-content:left;
+margin-left: -500px;
+margin-bottom: -200px;
+margin-top: -45px;
+color: #5173e2;
+
+}
+
+
+.ph-map-pin-line {
+
+font-size: 30px;
+display: flex;
+margin-left: -200px;
+margin-right: 0px;
+margin-bottom: 0px;
+margin-top: 110px;
+color: #5173e2;
+}
+
+
+.cep-text {
+font-size: 5px;
+display: block;
+margin: auto;
+margin-left: -235px;
+color: #ffffff;
+
+}
+
+.cep{
+display: flex;
+justify-content: left;
+margin-left: -250px;
+}
+
+.logingeral{
+
+    display: flex;
+    justify-content: end;
+    margin-top: -6rem;
+    margin-right: 15rem;
+    padding: 0;
+    
+   
+
+}
+
+.login1{
+    display:block;    
+margin-bottom: 5rem;
+margin-top: 10px;
+margin: 0,8px;
+line-height:0.8px;
+}   
+
+.login2{
+
+    margin-top: 10px;
+
+    line-height:0.20px;
+    
+    margin: .0628rem;
+}
+
+
+
+
+   
+
+
+
+
+.cart {
+
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+    gap: 1rem;
+    
+  
+    color: #447baf;
+    transition: 0.3s;
+    margin-top: -110px;
+    margin-bottom: -30px;
+  
+   
+
+ i{
+    font-size: 25px;
+
+ &:hover {
+        filter: brightness(200%);
+        cursor: pointer;}
+
+
+ }       
+
+    
+}
+    
+
+.banner{
+
+    width: 75%;
+    height: 400px;
+    background-image: url("https://i.postimg.cc/pXkqkxyn/Whats-App-Image-2025-08-08-at-19-18-08.jpg");
+     background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+
+      margin-top: 1px;
+      
+      margin-left: 200px;
+}
+    
+hr {
+  border: none;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.1);
+  margin: 40px auto;
+  width: 80%; /* menor que 100% para dar respiro nas laterais */
+}
+   
+  
+    
+
+
+    
+
+
+
+    
+
+.search-icon {
+  /* Seus estilos aqui */
+  font-size:25px;
+  color: rgb(20, 83, 45);
+}
+      &:hover {
+        filter: brightness(120%);
+        cursor: pointer;
+    }
+
